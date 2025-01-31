@@ -4,11 +4,13 @@ import "../public/styles.css"
 
 function Note(){
   return (
-    <div>
+    <div className="note">
       <h1 className="h1">This is Note Title</h1>
-      <p className="note">
+      <p>
         This is Note Content.
       </p>
     </div>
   )
 }
+
+export default Note;
